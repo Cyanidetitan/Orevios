@@ -19,7 +19,7 @@ try:
     ALLOW_ACTION = config("ALLOW_ACTION", default=True, cast=bool)
     APP_ID = config("APP_ID", default=6, cast=int)
     API_HASH = config("API_HASH", default="eb06d4abfb49dc3eeb1aeb98ae0f581e")
-    BOT_TOKEN = "5915590855:AAEsLgbtUrjlPGBZ17ArUJg7-RrBGUaBirg"
+    BOT_TOKEN = config("BOT_TOKEN", default="5915590855:AAEsLgbtUrjlPGBZ17ArUJg7-RrBGUaBirg")
     CACHE_DL = config("CACHE_DL", default=False, cast=bool)
     CAP_DECO = config("CAP_DECO", default="◉")
     C_LINK = config("C_LINK", default="@Anime_Jinx")
