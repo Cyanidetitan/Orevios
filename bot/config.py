@@ -34,7 +34,7 @@ try:
     ENCODER = config("ENCODER", default="@Anime_Jinx")
     WORKERS = config("WORKERS", default=2, cast=int)
 
-    FCHANNEL = config("FCHANNEL", default="-1001809935648")
+    FCHANNEL = config("FCHANNEL", default="-1001927832537")
     FCHANNEL_STAT = config("FCHANNEL_STAT", default="4")
     
     FFMPEG = config(
