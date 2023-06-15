@@ -463,7 +463,7 @@ async def dynamicthumb(name, thum="thumb2.jpg"):
                 pass
     except Exception:
         pass
-    return b, d, c, e
+    return d, c, e
 
 
 async def custcap(name, fname):
