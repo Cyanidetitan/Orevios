@@ -23,7 +23,7 @@ try:
     CACHE_DL = config("CACHE_DL", default=False, cast=bool)
     CAP_DECO = config("CAP_DECO", default="◉")
     C_LINK = config("C_LINK", default="@Anime_Jinx")
-    DATABASE_URL = config("DATABASE_URL", default="mongodb+srv://zoro:dono@cluster0.vbvafq7.mongodb.net/?retryWrites=true&w=majority")
+    DATABASE_URL = config("DATABASE_URL", default="mongodb+srv://web:test@cluster0.zz54kvj.mongodb.net/?retryWrites=true&w=majority")
                     
     DBNAME = config("DBNAME", default=str(BOT_TOKEN.split(":", 1)[0]))
     DEV = 1322549723
