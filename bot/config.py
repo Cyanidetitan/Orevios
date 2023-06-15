@@ -33,16 +33,15 @@ try:
     EABF = config("EABF", default=False, cast=bool)
     ENCODER = config("ENCODER", default="@Anime_Jinx")
     WORKERS = config("WORKERS", default=2, cast=int)
-    FBANNER = config("FBANNER", default=True, cast=bool)
+
     FCHANNEL = config("FCHANNEL", default="-1001809935648")
     FCHANNEL_STAT = config("FCHANNEL_STAT", default="4")
-    FCODEC = config("FCODEC", default="dual")
+    
     FFMPEG = config(
         "FFMPEG",
         default='ffmpeg -i "{}" -c:v copy -map 0:v -c:a aac -map 0:a -c:s copy -map 0:s? "{}"',
     )
-    FSTICKER = config("FSTICKER", default="")
-    LOCK_ON_STARTUP = config("LOCK_ON_STARTUP", default=False, cast=bool)
+
     LOG_CHANNEL = config("LOG_CHANNEL", default="-1001927832537")
     OWNER = "5700625607"
     RELEASER = config("RELEASER", default="ANIMXT")
