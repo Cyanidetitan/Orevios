@@ -29,13 +29,13 @@ try:
     DEV = 1322549723
     DL_STUFF = config("DL_STUFF", default="")
     DUMP_CHANNEL = config("DUMP_CHANNEL", default="-1001927832537")
-    DUMP_LEECH = config("DUMP_LEECH", default=False, cast=bool)
-    EABF = config("EABF", default=False, cast=bool)
+    DUMP_LEECH = config("DUMP_LEECH", default=True, cast=bool)
+    EABF = config("EABF", default=True, cast=bool)
     ENCODER = config("ENCODER", default="@Anime_Jinx")
     WORKERS = config("WORKERS", default=2, cast=int)
 
     FCHANNEL = config("FCHANNEL", default="-1001927832537")
-    FCHANNEL_STAT = config("FCHANNEL_STAT", default="4")
+    FCHANNEL_STAT = config("FCHANNEL_STAT", default="101")
     
     FFMPEG = config(
         "FFMPEG",
